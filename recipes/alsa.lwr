@@ -18,5 +18,8 @@
 #
 
 category: baseline
-satisfy_deb: libopenblas-dev 
-satisfy_rpm: blas-devel
+depends: wget
+source: wget://ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.27.2.tar.bz2
+satisfy_deb: libasound2-dev
+satisfy_rpm: alsa-lib-devel
+inherit: autoconf

@@ -17,6 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: baseline
-satisfy_deb: libopenblas-dev 
-satisfy_rpm: blas-devel
+category: common
+depends: gnuradio python-scapy
+source: git://https://github.com/osh/gr-pcap.git
+gitbranch: master
+inherit: cmake

@@ -18,5 +18,4 @@
 #
 
 category: baseline
-satisfy_deb: libopenblas-dev 
-satisfy_rpm: blas-devel
+satisfy_deb: python-scapy
